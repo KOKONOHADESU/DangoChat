@@ -25,3 +25,42 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# macOS/Windows/Linux のビルド関連
+macos/
+windows/
+linux/
+
+# iOS/Android に関する不要ファイル
+**/Pods/
+**/.symlinks/
+**/Flutter/ephemeral/
+android/.gradle/
+android/app/debug.keystore
+
+# IDE の設定ファイル
+.idea/
+.vscode/
+*.iml
+
+# Xcode 関連の設定ファイル
+xcuserdata/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+
+# Web関連の不要ファイル
+web/.dart_tool/
+
+# キャッシュファイル
+*.log
+*.DS_Store
+*.pdb
+*.dll
+*.so
+*.dylib
+*.lock
+*.tmp
+
+# GitHub Desktop の不要ファイル（設定ファイルなど）
+*.orig
