@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// エントリーポイント
 void main() {
   runApp(const MyApp());
 }
